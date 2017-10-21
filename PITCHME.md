@@ -102,13 +102,14 @@ create-elm-app my-app
 ```
 +++
 
-Get's you a bunch of features
+Creates a ready to use build configuration
 
 * Elm platform
 * Elm test
 * Webpack
-* Style loader
+* Hot reload
 * Babel
+* Style loader
 * Autoprefixer
 
 +++
