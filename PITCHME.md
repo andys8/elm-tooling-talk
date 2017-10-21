@@ -82,7 +82,7 @@ JavaScript has great tooling.
 
 * Share code
 * Install packages
-* Ported Elm compiler in the browser
+* Elm compiler in the browser
 
 +++
 
@@ -119,7 +119,7 @@ You can eject
 
 ## Elm Format
 
-> `elm-format` formats Elm source code according to a standard set of rules.
+> `elm-format` formats source code according to a standard set of rules.
 
 +++
 Unformatted
@@ -128,8 +128,10 @@ Unformatted
 module Main exposing(..)
 import Html exposing(li,text,ul)
 import Html.Attributes exposing(class)
-main=ul[class"items"][li[][text"Chair"],li[][text"Table"],li[][text"Couch"]]
+main=ul[class"items"][li[][text"Chair"],li[
+ ][text"Table"],li[][text"Couch"]]
 ```
+
 +++
 Formatted
 
@@ -155,14 +157,17 @@ main =
 
 +++
 
+Commandline
 ![Terminal Output](assets/elm-analyse-terminal-output.png)
 
 +++
 
+Web-UI
 ![Dashboard](assets/elm-analyse-dashboard.png)
 
 +++
 
+Auto fixes
 ![Single message](assets/elm-analyse-single-message.png)
 
 +++
@@ -296,10 +301,10 @@ addItem item =
 
 ## Summary
 
-- **Ellie App** to try elm online
-- **Create Elm App** to get started
-- **Elm Format** styles the code
-- **Elm Analyse** checks it
-- **Elm Test** and **Html Test** for testing
-- **Elm Http Builder** to create requests
+- **[Ellie App](https://ellie-app.com)** to try elm online
+- **[Create Elm App](https://github.com/halfzebra/create-elm-app)** to get started
+- **[Elm Format](https://github.com/avh4/elm-format)** styles the code
+- **[Elm Analyse](https://github.com/stil4m/elm-analyse)** checks it
+- **[Elm Test](http://package.elm-lang.org/packages/elm-community/elm-test/latest)** and **[Html Test](http://package.elm-lang.org/packages/eeue56/elm-html-test/latest)** for testing
+- **[Elm Http Builder](https://github.com/lukewestby/elm-http-builder)** to create requests
 
