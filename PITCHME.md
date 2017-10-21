@@ -17,9 +17,12 @@ Github: [andys8](https://github.com/andys8)
 ## Where to find libraries?
 
 +++
+
 Elm Packages
 ![Elm Packages](assets/elm-packages.png)
+
 +++
+
 Fancy Search
 ![Fancy Search](assets/fancy-search.png)
 
@@ -231,6 +234,8 @@ test "Button has the expected text" <|
             |> Query.find [ tag "button" ]
             |> Query.has [ text "B button!" ]
 ```
+@[3-4]
+@[5-7]
 
 +++
 
@@ -255,6 +260,9 @@ test "Button has the expected text" <|
 ▼ Query.has [ text "B button!" ]
 ✗ has text "B button!"
 ```
+@[3-9]
+@[12-16]
+@[18-19]
 
 +++
 
