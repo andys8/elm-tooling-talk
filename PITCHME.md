@@ -176,8 +176,8 @@ Auto fixes
 
 - Find unused variables, imports and code
 - Duplicate imports
-- Maximium Line Length
-- Non Static Regex
+- Maximum line length
+- Non static regex
 
 ---
 
