@@ -8,7 +8,7 @@
 
 Working at [Jambit](https://jambit.com)
 
-Twitter: [_andys8](https://github.com/andys8)
+Twitter: [_andys8](https://twitter.com/_andys8)
 
 Github: [andys8](https://github.com/andys8)
 
